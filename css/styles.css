@@ -1,0 +1,145 @@
+html{
+    background-color: darkgray;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Quicksand', sans-serif;
+    min-width: 850px;
+}
+@media only screen and (min-width: 1750px){
+    .months{
+    grid-template-columns: auto auto auto auto;
+    }
+}
+@media only screen and (max-width: 1749px){
+    .months{
+    grid-template-columns: auto auto auto;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .months{
+    grid-template-columns: auto auto;
+    }
+}
+.navigationbar
+{
+    background: linear-gradient(to bottom right, blue 0%, lightgray 85%);
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: sticky;
+}
+.menu
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 100%;
+}
+.menusurvol
+{
+    border-radius: 20px;
+    background-color:  darkblue;
+}
+.logo
+{
+    width: 10%;
+}
+a:hover
+{
+    background-color: rgb(110, 110, 250);
+    border-radius: 20px;
+}
+.boite
+{
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.imageaccueil{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 50px;
+    padding: 2em;
+}
+.video
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 3%;
+    column-gap: 3%;
+    padding: 5%;
+}
+.videobox
+{
+    width: 100%;
+    border-radius: 20px;
+}
+.title
+{
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: xx-large;
+}
+.content
+{
+    display: flex;
+}
+.monthTitle
+{
+    text-align: center;
+}
+.months
+{
+    display: grid;
+    gap: 2%;
+}
+.month
+{
+    background-color: lightblue;
+    border: solid black 3px;
+    border-radius: 10px;
+}
+.calendarContainer
+{
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 5%;
+}
+.daysOfWeek
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 5%;
+}
+.daysContainer
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 5%;
+}
+.congé
+{
+    color: red;
+}
+.paroles
+{
+    padding: 2%;
+}
+.music
+{
+    display: block;
+    margin: auto;
+    padding: 5%;
+    width: 70%;
+}
